@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@500;600;700&family=Roboto:wght@100;400&display=swap");
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css");
+
+
+:root {
+  /* used variables in the code */
+  --lato: "Lato";
+  --poppins: "Poppins";
+  --roboto: "Roboto";
+
+  --sm: 300;
+  --md: 500;
+  --lg: 700;
+
+  --m-color: #000000; 
+}
+
+/*==========================STANDARD WEB===============================*/
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-weight: 300;
+  font-size: 100%;
+
+  color: var(--m-color);
+}
+
+.row {
+  margin-bottom: 0px;
+}
+/*==========================STANDARD WEB===============================*/
+
+/*==========================minhas classes===============================*/
+.df {
+  display: flex;
+}
+
+.df-row {
+  display:flex ;
+  flex-direction: row;
+}
+
+.df-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.v-align-center {
+  display: flex;
+  justify-content: center;
+}
+/*==========================minhas classes===============================*/
+
+
+/*==========================HEADER===============================*/
+
+/*cor background + height => newsletter*/
+header .offer-boletin {
+  background-color: #524545;
+  padding: 10px 0 10px 0;
+}
+/*fonte -> tamanho + peso + familia => newsletter*/
+header .offer-boletin .boletin {
+  font-size: 1rem;
+  font-weight: 500;
+  color: aliceblue;
+}
+/*espaçamento navbar laterais*/
+header .navbar {
+  margin: 3rem 40px 1.5rem 40px ;
+}
+/*alinhamento vertical logo + nav + açoes*/
+header .navbar {
+  display: flex;
+  align-items: center;
+}
+/*fonte -> tamanho + peso+ familia => menu navegaçao*/
+header .nav ul li a{
+  font-size: 1.2rem;
+  font-weight: var(--sm);
+  font-family: var(--poppins);
+  color: var(--m-color);
+  cursor: pointer;
+  transition: 2s;
+}
+/*fonte -> tamanho + peso+ familia => menu navegaçao hover*/
+header .nav ul li a:hover {
+  transition: 4s;
+  border-bottom: 2px solid #524545;
+}
+
+/*icones açoes*/
+header .actions ul i {
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all 4;
+}
+/*icones açoes hover*/
+header .actions ul i:hover {
+  transition: font 1s;
+  font-size: 1.4rem;
+}
+
+
+/*==========================main===============================*/
+
+/*tamanho banner*/
+main .banner {
+  height: 81vh !important;
+}
+/*tamano carrossel*/
+main .banner .carousel{
+  height: 100% !important;
+}
+
+/*
+/* media queries 
+/* tablet and similar devices 
+@media screen and (max-width: 620px) {
+  
+}
+
+/* smartphones and large devices and up 
+@media screen and (min-width: 500px) {
+
+}*/
