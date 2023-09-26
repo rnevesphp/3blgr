@@ -117,11 +117,16 @@ main .banner .carousel{
 
 
 /*==========================main collections===============================*/
+/*font titulo collections principal*/
+main .collections h1 {
+  
+}
+
 /*espaçamento collections lateral*/
 main .collections {
   margin: 0 40px 0 40px; 
 }
-
+/*fonte collections titulo card*/
 main .collections .info-collection {
   font-family: var(--poppins);
   font-weight: 900;
