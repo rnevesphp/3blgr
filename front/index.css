@@ -13,6 +13,7 @@
 }
 
 /*==========================STANDARD WEB===============================*/
+/*reset css*/
 * {
   margin: 0;
   padding: 0;
@@ -24,15 +25,21 @@
 
   color: var(--m-color);
 }
-
+/*redefindindo a classe row sem espacamento inferior*/
 .row {
   margin-bottom: 0px;
 }
-
+/*scroll suave*/
 html {
   scroll-behavior: smooth;
 }
+/*espaçamento main lateral*/
+main section {
+  margin: 0 40px 0 40px; 
+}
 /*==========================STANDARD WEB===============================*/
+
+
 
 /*==========================minhas classes===============================*/
 .df {
@@ -44,9 +51,10 @@ html {
   flex-direction: row;
 }
 
-.df-col {
+.df-col-center {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .v-align-center {
@@ -56,8 +64,8 @@ html {
 /*==========================minhas classes===============================*/
 
 
-/*==========================HEADER===============================*/
 
+/*==========================HEADER===============================*/
 /*cor background + height => newsletter*/
 header .offer-boletin {
   background-color: #524545;
@@ -92,22 +100,34 @@ header .nav ul li a:hover {
   transition: 4s;
   border-bottom: 2px solid #524545;
 }
+/*ajuste acoes*/
+header .actions ul {
+  border: 1px solid blue;
+  display: flex;
+}
+header .actions ul li {
+  margin: 0 50px 0 0;
+  border: 1px solid red;
+}
 
 /*icones açoes*/
 header .actions ul i {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   cursor: pointer;
-  transition: all 4;
+  transition: color .5s;
+  margin: 0 0 0 1rem;
+  padding: 0 0 0 0;
 }
 /*icones açoes hover*/
 header .actions ul i:hover {
-  transition: font 1s;
-  font-size: 1.4rem;
+  transition: color .5s;
+  color: #3f8d0b;
 }
+/*==========================HEADER===============================*/
+
 
 
 /*==========================main banner===============================*/
-
 /*tamanho banner*/
 main .banner {
   height: 81vh !important;
@@ -117,6 +137,7 @@ main .banner {
 main .banner .carousel{
   height: 100% !important;
 }
+/*==========================main banner===============================*/
 
 
 
@@ -128,23 +149,44 @@ main .collections h1 {
   font-size: 3rem;
   font-weight: 700;
 }
-
-/*espaçamento collections lateral*/
-main .collections {
-  margin: 0 40px 0 40px; 
-}
 /*fonte collections titulo card*/
 main .collections .info-collection h3{
   font-family: var(--poppins);
   font-weight: 500;
   font-size: 2.2rem;
-}
-
-main .collections .card-image img {
   cursor: pointer;
 }
 
+/**/
+main .collections .info-collection a{
+  background-color: #524545;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 3px;
+  transition: background-color 1.2s ;
+}
 
+main .collections .info-collection a:hover{
+  transition: all 1.2s ;
+  background-color: #3f8d0b;
+}
+/*espaçamento entre cards*/
+main .collections .card-1 {
+  margin: 2rem 0 2rem 0;
+}
+/*==========================main collections===============================*/
+
+
+
+/*==========================main policies===============================*/
+/*afastamento da seçao anterior*/
+main .policies {
+  padding: 8rem 0 0 0 ;
+}
+
+/*==========================main policies===============================*/
 
 
 /*
