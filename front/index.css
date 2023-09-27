@@ -128,15 +128,16 @@ main .banner .carousel{
 /*==========================main banner===============================*/
 
 
-
-/*==========================main collections===============================*/
-/*font titulo collections principal*/
-main .collections h1 {
-  margin: 0 0 4rem 0;
+/*font titulo sections predef*/
+main section .title-section h1{
+  margin: 4rem 0 4rem 0;
   font-family: var(--poppins);
   font-size: 3rem;
   font-weight: 700;
 }
+
+
+/*==========================main collections===============================*/
 /*fonte collections titulo card*/
 main .collections .info-collection h3{
   font-family: var(--poppins);
@@ -145,7 +146,7 @@ main .collections .info-collection h3{
   cursor: pointer;
 }
 
-/**/
+/* link comprar colletions */
 main .collections .info-collection a{
   background-color: #524545;
   font-weight: bold;
@@ -153,9 +154,9 @@ main .collections .info-collection a{
   cursor: pointer;
   padding: 10px;
   border-radius: 3px;
-  transition: background-color 1.2s ;
+  transition: 1.2s ;
 }
-
+/* estilizacao background comprar collections */
 main .collections .info-collection a:hover{
   transition: all 1.2s ;
   background-color: #3f8d0b;
