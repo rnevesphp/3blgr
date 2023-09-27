@@ -175,33 +175,31 @@ main .policies {
 }
 /* cor card */
 main .policies .card {
-  background-color: rgba(134, 112, 112, .5);
+  background-color: rgba(188, 225, 241, 0.4);
   color: #fff;
 }
-
+/* cirulo atras do icones */
 main .policies .card-content .icone-formatter {
-  background-color: rgba(134, 112, 112, .7);
+  background-color:  rgba(69, 187, 238, 0.4);
   border-radius: 50%;
   width: 50px;
   height: 50px; 
   padding: 0 0 20px 0 ;
 }
-
 /*icones cards*/
 main .policies .card-content i {
   font-size:1.6rem;
   padding: 15px 0 15px 0; 
   color: #1f1a1a; 
 }
-
 /* titulo card content */
 main .policies .card-content .title{
-  font-weight: bold;
-  font-size: 1.0rem;
-  padding: 10px 0 10px 0; 
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 20px 0 10px 0; 
   font-family: var(--poppins);
+  color:  rgba(134, 177, 196, 1);
 }
-
 /* texto formatacao */
 main .policies .card-content .info-txt {
   font-weight: 300;
@@ -209,10 +207,16 @@ main .policies .card-content .info-txt {
   padding: 0 0 10px 0 ;
 }
 /* info final card  */
-main .policies .card-content .price {
-  font-weight: bold;
-  padding: 10px 0 0 0;
-
+main .policies .card-content .price{
+  margin: 15px 0 0 0;
+  font-weight: 600;
+  color:  rgba(134, 177, 196, 1);
+  font-size: 1.1rem;
+  font-family: var(--poppins);
+}
+main .policies .card-content .price a {
+  font-weight: 600;
+  color: rgba(134, 177, 196, 1);
 }
 /*==========================main policies===============================*/
 
