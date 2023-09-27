@@ -100,23 +100,11 @@ header .nav ul li a:hover {
   transition: 4s;
   border-bottom: 2px solid #524545;
 }
-/*ajuste acoes*/
-header .actions ul {
-  border: 1px solid blue;
-  display: flex;
-}
-header .actions ul li {
-  margin: 0 50px 0 0;
-  border: 1px solid red;
-}
-
 /*icones açoes*/
 header .actions ul i {
   font-size: 1.5rem;
   cursor: pointer;
   transition: color .5s;
-  margin: 0 0 0 1rem;
-  padding: 0 0 0 0;
 }
 /*icones açoes hover*/
 header .actions ul i:hover {
@@ -185,7 +173,47 @@ main .collections .card-1 {
 main .policies {
   padding: 8rem 0 0 0 ;
 }
+/* cor card */
+main .policies .card {
+  background-color: rgba(134, 112, 112, .5);
+  color: #fff;
+}
 
+main .policies .card-content .icone-formatter {
+  background-color: rgba(134, 112, 112, .7);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px; 
+  padding: 0 0 20px 0 ;
+}
+
+/*icones cards*/
+main .policies .card-content i {
+  font-size:1.6rem;
+  padding: 15px 0 15px 0; 
+  color: #1f1a1a; 
+}
+
+/* titulo card content */
+main .policies .card-content .title{
+  font-weight: bold;
+  font-size: 1.0rem;
+  padding: 10px 0 10px 0; 
+  font-family: var(--poppins);
+}
+
+/* texto formatacao */
+main .policies .card-content .info-txt {
+  font-weight: 300;
+  font-size: 1.1rem;
+  padding: 0 0 10px 0 ;
+}
+/* info final card  */
+main .policies .card-content .price {
+  font-weight: bold;
+  padding: 10px 0 0 0;
+
+}
 /*==========================main policies===============================*/
 
 
