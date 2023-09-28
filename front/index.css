@@ -139,7 +139,7 @@ main section .title-section h1{
 
 /*==========================main collections===============================*/
 /*fonte collections titulo card*/
-main .collections .info-collection h3{
+main .s-collections .info-collection h3{
   font-family: var(--poppins);
   font-weight: 500;
   font-size: 2.2rem;
@@ -147,7 +147,7 @@ main .collections .info-collection h3{
 }
 
 /* link comprar colletions */
-main .collections .info-collection a{
+main .s-collections .info-collection a{
   background-color: #524545;
   font-weight: bold;
   color: #fff;
@@ -156,13 +156,13 @@ main .collections .info-collection a{
   border-radius: 3px;
   transition: 1.2s ;
 }
-/* estilizacao background comprar collections */
-main .collections .info-collection a:hover{
+/* estilizacao background comprar s-collections */
+main .s-collections .info-collection a:hover{
   transition: all 1.2s ;
   background-color: #3f8d0b;
 }
 /*espaçamento entre cards*/
-main .collections .card-1 {
+main .s-collections .card-1 {
   margin: 2rem 0 2rem 0;
 }
 /*==========================main collections===============================*/
@@ -171,16 +171,16 @@ main .collections .card-1 {
 
 /*==========================main policies===============================*/
 /*afastamento da seçao anterior*/
-main .policies {
+main .s-policies {
   padding: 8rem 0 0 0 ;
 }
 /* cor card */
-main .policies .card {
+main .s-policies .card {
   background-color: rgba(188, 225, 241, 0.4);
   color: #fff;
 }
 /* cirulo atras do icones */
-main .policies .card-content .icone-formatter {
+main .s-policies .card-content .icone-formatter {
   background-color:  rgba(69, 187, 238, 0.4);
   border-radius: 50%;
   width: 50px;
@@ -188,13 +188,13 @@ main .policies .card-content .icone-formatter {
   padding: 0 0 20px 0 ;
 }
 /*icones cards*/
-main .policies .card-content i {
+main .s-policies .card-content i {
   font-size:1.6rem;
   padding: 15px 0 15px 0; 
   color: #1f1a1a; 
 }
 /* titulo card content */
-main .policies .card-content .title{
+main .s-policies .card-content .title{
   font-weight: 700;
   font-size: 1.2rem;
   padding: 20px 0 10px 0; 
@@ -202,20 +202,20 @@ main .policies .card-content .title{
   color:  rgba(134, 177, 196, 1);
 }
 /* texto formatacao */
-main .policies .card-content .info-txt {
+main .s-policies .card-content .info-txt {
   font-weight: 300;
   font-size: 1.1rem;
   padding: 0 0 10px 0 ;
 }
 /* info final card  */
-main .policies .card-content .price{
+main .s-policies .card-content .price{
   margin: 15px 0 0 0;
   font-weight: 600;
   color:  rgba(134, 177, 196, 1);
   font-size: 1.1rem;
   font-family: var(--poppins);
 }
-main .policies .card-content .price a {
+main .s-policies .card-content .price a {
   font-weight: 600;
   color: rgba(134, 177, 196, 1);
 }
