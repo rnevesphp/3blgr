@@ -147,7 +147,6 @@ main .s-presentation .text-presentation {
   font-size: 1.2rem;
   justify-content: center;
   height: 100%;
-  border: 2px solid red;
   display: flex;
 }
 
@@ -169,7 +168,6 @@ main .s-collections .info-collection h3{
   font-size: 2.2rem;
   cursor: pointer;
 }
-
 /* link comprar colletions */
 main .s-collections .info-collection a{
   background-color: rgba(74, 173, 216, 0.4);
