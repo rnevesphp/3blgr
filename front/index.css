@@ -224,12 +224,26 @@ main .s-policies .card-content .price a {
 
 /*
 /* media queries 
-/* tablet and similar devices 
-@media screen and (max-width: 620px) {
-  
-}
+
 
 /* smartphones and large devices and up 
 @media screen and (min-width: 500px) {
 
 }*/
+
+/* tablet and similar devices  */
+@media screen and (max-width: 620px) {
+  /* icones mobile */
+  header .actions ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header .actions ul i {
+    padding: 0 5px 0 0 ;
+  }
+
+  main .banner-mobile img {
+    width: 100% !important;
+  }
+}
