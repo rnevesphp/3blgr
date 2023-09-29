@@ -63,6 +63,18 @@ main section {
   justify-content: center;
 }
 
+/* valid color */
+.input-field input[type=text].valid {
+  border-bottom: 1px solid #7bf879;
+  box-shadow: 0 1px 0 0 #20ef1c;
+}
+
+/* invalid color */
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid #fc2d2d;
+  box-shadow: 0 1px 0 0 #fc2d2d;
+}
+
 /*==========================minhas classes===============================*/
 
 /*==========================HEADER===============================*/
@@ -167,6 +179,7 @@ main .s-presentation .logo {
 main .s-presentation .text-presentation {
   padding: 5rem 40px 5rem 40px;
 }
+
 /*==========================main presentation===============================*/
 
 /*==========================main collections===============================*/
@@ -255,9 +268,19 @@ main .s-policies .card-content .price {
   font-family: var(--poppins);
 }
 
+/* botaopreço  */
 main .s-policies .card-content .price a {
   font-weight: 600;
   color: rgba(134, 177, 196, 1);
+}
+
+main .s-policies .contact {
+  padding: 0 40px 0 40px;
+}
+
+main .s-policies .contact form textarea {
+  /* border: 2px solid blue; */
+  padding: 6rem 0 0 0;
 }
 
 /*==========================main policies===============================*/
@@ -273,6 +296,7 @@ main .s-policies .card-content .price a {
 
 /* tablet and similar devices  */
 @media screen and (max-width: 620px) {
+
   /* icones mobile */
   header .actions ul {
     display: flex;
