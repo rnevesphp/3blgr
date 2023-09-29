@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:ital,wght@0,500;0,600;0,800;0,900;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,300;0,400;1,500&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:ital,wght@0,500;0,600;0,800;0,900;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,300;0,400;1,500&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css");
-
 
 :root {
   /* used variables in the code */
@@ -9,7 +8,7 @@
   --poppins: "Poppins";
   --roboto: "Roboto";
 
-  --m-color: #000000; 
+  --m-color: #000000;
 }
 
 /*==========================STANDARD WEB===============================*/
@@ -25,21 +24,23 @@
 
   color: var(--m-color);
 }
+
 /*redefindindo a classe row sem espacamento inferior*/
 .row {
   margin-bottom: 0px;
 }
+
 /*scroll suave*/
 html {
   scroll-behavior: smooth;
 }
+
 /*espaçamento main lateral*/
 main section {
-  margin: 0 40px 0 40px; 
+  margin: 0 40px 0 40px;
 }
+
 /*==========================STANDARD WEB===============================*/
-
-
 
 /*==========================minhas classes===============================*/
 .df {
@@ -47,7 +48,7 @@ main section {
 }
 
 .df-row {
-  display:flex ;
+  display: flex;
   flex-direction: row;
 }
 
@@ -61,9 +62,8 @@ main section {
   display: flex;
   justify-content: center;
 }
+
 /*==========================minhas classes===============================*/
-
-
 
 /*==========================HEADER===============================*/
 /*cor background + height => newsletter*/
@@ -71,23 +71,27 @@ header .offer-boletin {
   background-color: #524545;
   padding: 10px 0 10px 0;
 }
+
 /*fonte -> tamanho + peso + familia => newsletter*/
 header .offer-boletin .boletin {
   font-size: 1rem;
   font-weight: 500;
   color: aliceblue;
 }
+
 /*espaçamento navbar laterais*/
 header .navbar {
-  margin: 3rem 40px 1.5rem 40px ;
+  margin: 3rem 40px 1.5rem 40px;
 }
+
 /*alinhamento vertical logo + nav + açoes*/
 header .navbar {
   display: flex;
   align-items: center;
 }
+
 /*fonte -> tamanho + peso+ familia => menu navegaçao*/
-header .nav ul li a{
+header .nav ul li a {
   font-size: 1.2rem;
   font-weight: var(--sm);
   font-family: var(--poppins);
@@ -95,25 +99,27 @@ header .nav ul li a{
   cursor: pointer;
   transition: 2s;
 }
+
 /*fonte -> tamanho + peso+ familia => menu navegaçao hover*/
 header .nav ul li a:hover {
   transition: 4s;
   border-bottom: 2px solid #524545;
 }
+
 /*icones açoes*/
 header .actions ul i {
   font-size: 1.5rem;
   cursor: pointer;
-  transition: color .5s;
+  transition: color 0.5s;
 }
+
 /*icones açoes hover*/
 header .actions ul i:hover {
-  transition: color .5s;
+  transition: color 0.5s;
   color: #3f8d0b;
 }
+
 /*==========================HEADER===============================*/
-
-
 
 /*==========================main banner===============================*/
 /*tamanho banner*/
@@ -121,128 +127,140 @@ main .banner {
   height: 81vh !important;
   margin: 0 0 4rem 0;
 }
+
 /*tamano carrossel*/
-main .banner .carousel{
+main .banner .carousel {
   height: 100% !important;
 }
+
 /*==========================main banner===============================*/
-
-
 
 /*==========================main section titulo h1===============================*/
 /*font titulo sections predef*/
-main section .title-section h1{
+main section .title-section h1 {
   margin: 4rem 0 4rem 0;
   font-family: var(--poppins);
   font-size: 3rem;
   font-weight: 700;
 }
+
 /*==========================main banner===============================*/
 
-
 /*==========================main presentation===============================*/
+
+main .s-presentation {
+  height: auto;
+}
+
+main .s-presentation .info-presentation {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+main .s-presentation .logo {
+  width: 50%;
+  padding: 5rem 0 5rem 0;
+}
 
 main .s-presentation .text-presentation {
-  padding: 0 20px  0 20px ;
-  font-size: 1.2rem;
-  justify-content: center;
-  height: 100%;
-  display: flex;
-}
-
-main .s-presentation .text-presentation span {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  padding: 0 20px 0 20px;
+  padding: 5rem 40px 5rem 40px;
 }
 /*==========================main presentation===============================*/
-
-
 
 /*==========================main collections===============================*/
 /*fonte collections titulo card*/
-main .s-collections .info-collection h3{
+main .s-collections .info-collection h3 {
   font-family: var(--poppins);
   font-weight: 500;
   font-size: 2.2rem;
   cursor: pointer;
 }
+
 /* link comprar colletions */
-main .s-collections .info-collection a{
+main .s-collections .info-collection a {
   background-color: rgba(74, 173, 216, 0.4);
   font-weight: bold;
   color: var(--m-color);
   cursor: pointer;
   padding: 10px;
   border-radius: 1.5px;
-  transition: 1.2s ;
+  transition: 1.2s;
 }
+
 /* estilizacao background comprar s-collections */
-main .s-collections .info-collection a:hover{
-  transition: all 1.2s ;
-  background-color:  rgba(45, 144, 187, 0.753);
+main .s-collections .info-collection a:hover {
+  transition: all 1.2s;
+  background-color: rgba(45, 144, 187, 0.753);
 }
+
 /*espaçamento entre cards*/
 main .s-collections .card-1 {
   margin: 2rem 0 2rem 0;
 }
+
 /*==========================main collections===============================*/
-
-
 
 /*==========================main policies===============================*/
 /*afastamento da seçao anterior*/
 main .s-policies {
-  padding: 8rem 0 0 0 ;
+  padding: 8rem 0 0 0;
 }
+
 /* cor card */
 main .s-policies .card {
   background-color: rgba(188, 225, 241, 0.4);
   color: #fff;
 }
+
 /* cirulo atras do icones */
 main .s-policies .card-content .icone-formatter {
-  background-color:  rgba(69, 187, 238, 0.4);
+  background-color: rgba(69, 187, 238, 0.4);
   border-radius: 50%;
   width: 50px;
-  height: 50px; 
-  padding: 0 0 20px 0 ;
+  height: 50px;
+  padding: 0 0 20px 0;
 }
+
 /*icones cards*/
 main .s-policies .card-content i {
-  font-size:1.6rem;
-  padding: 15px 0 15px 0; 
-  color: #1f1a1a; 
+  font-size: 1.6rem;
+  padding: 15px 0 15px 0;
+  color: #1f1a1a;
 }
+
 /* titulo card content */
-main .s-policies .card-content .title{
+main .s-policies .card-content .title {
   font-weight: 700;
   font-size: 1.2rem;
-  padding: 20px 0 10px 0; 
+  padding: 20px 0 10px 0;
   font-family: var(--poppins);
-  color:  rgba(134, 177, 196, 1);
+  color: rgba(134, 177, 196, 1);
 }
+
 /* texto formatacao */
 main .s-policies .card-content .info-txt {
   font-weight: 300;
   font-size: 1.1rem;
-  padding: 0 0 10px 0 ;
+  padding: 0 0 10px 0;
 }
+
 /* info final card  */
-main .s-policies .card-content .price{
+main .s-policies .card-content .price {
   margin: 15px 0 0 0;
   font-weight: 600;
-  color:  rgba(134, 177, 196, 1);
+  color: rgba(134, 177, 196, 1);
   font-size: 1.1rem;
   font-family: var(--poppins);
 }
+
 main .s-policies .card-content .price a {
   font-weight: 600;
   color: rgba(134, 177, 196, 1);
 }
-/*==========================main policies===============================*/
 
+/*==========================main policies===============================*/
 
 /*
 /* media queries 
@@ -260,32 +278,41 @@ main .s-policies .card-content .price a {
     display: flex;
     justify-content: space-between;
   }
+
   header .actions ul i {
-    padding: 0 5px 0 0 ;
+    padding: 0 5px 0 0;
   }
+
   main section {
     margin: 0 10px 0 10px;
   }
+
   main section .title-section h1 {
-    margin: 1.5rem 0 2rem 0 ;
+    margin: 1.5rem 0 2rem 0;
   }
+
   main .banner {
     height: 50vh !important;
     margin: 0 0 0 0;
   }
 
-  main .s-presentation .text-presentation {
-    padding: 0 20px  0 20px ;
-    text-align: center;
-    margin: 2rem 0 8rem 0;
+  main .s-presentation .info-presentation {
+    display: flex !important;
+    flex-direction: column !important;
+    margin: 3rem 0 2rem 0;
+    align-items: center;
+  }
+
+  main .s-presentation .logo {
+    width: 50%;
+    padding: 5rem 0 1rem 0;
+  }
+
+  main .s-presentation .info-presentation .text-presentation {
     font-size: 1.2rem;
   }
 
   main .s-collections .card-box {
     margin: 2rem 0 0 0;
   }
-/*   main .s-policies .policy-title {
-    margin: 0 0 1rem 0;
-  } */
- 
 }
