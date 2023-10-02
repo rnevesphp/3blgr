@@ -63,20 +63,30 @@ main section {
   justify-content: center;
 }
 
-/* valid color */
+/* /* valid color 
 .input-field input[type=text].valid {
   border-bottom: 1px solid #7bf879;
   box-shadow: 0 1px 0 0 #20ef1c;
 }
-
+ */
 /* invalid color */
 .input-field input[type=text].invalid {
   border-bottom: 1px solid #fc2d2d;
   box-shadow: 0 1px 0 0 #fc2d2d;
 }
 
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #66ff01;
+  box-shadow: 0 1px 0 0 #66ff01;
+}
 
+.material-tooltip {
+  background-color: #3f8d0b;
+}
 
+.material-tooltip .tooltip-content {
+  color: #fff;
+}
 /*==========================minhas classes===============================*/
 
 /*==========================HEADER===============================*/
@@ -130,7 +140,7 @@ header .actions ul i {
 /*icones açoes hover*/
 header .actions ul i:hover {
   transition: color 0.5s;
-  color: #3f8d0b;
+  color: #285907;
 }
 
 /*==========================HEADER===============================*/
