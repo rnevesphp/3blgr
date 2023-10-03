@@ -292,6 +292,10 @@ main .s-policies .card-content .price a {
 
 
 /*==========================main contact===============================*/
+main .s-contact {
+  margin: 5rem 0 5rem 0;
+}
+
 main .contact form textarea {
   /* border: 2px solid blue; */
   padding: 6rem 0 0 0;
