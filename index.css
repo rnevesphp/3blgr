@@ -230,7 +230,8 @@ main .s-collections .card-1 {
 /*==========================main policies===============================*/
 /*afastamento da seçao anterior*/
 main .s-policies {
-  padding: 8rem 0 0 0;
+  margin: 8rem 0 0 0;
+  padding: 0 40px 0 40px;
 }
 
 /* cor card */
@@ -285,12 +286,6 @@ main .s-policies .card-content .price a {
   font-weight: 600;
   color: rgba(134, 177, 196, 1);
 }
-
-main .s-policies {
-  padding: 0 40px 0 40px;
-}
-
-
 /*==========================main policies===============================*/
 
 
@@ -313,6 +308,25 @@ main .s-contact .btn-box {
   justify-content: center;
 }
 /*==========================main contact===============================*/
+main .s-presentation-2 {
+  height: auto;
+}
+
+main .s-presentation-2 .info-presentation-2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+main .s-presentation-2 .logo-2 {
+  width: 50%;
+  padding: 5rem 0 5rem 0;
+}
+
+main .s-presentation-2 .text-presentation-2 {
+  padding: 0rem 40px 0rem 40px;
+}
 /*
 /* media queries 
 
@@ -361,6 +375,26 @@ main .s-contact .btn-box {
   }
 
   main .s-presentation .info-presentation .text-presentation {
+    font-size: 1.2rem;
+  }
+
+  main .s-collections .card-box {
+    margin: 2rem 0 0 0;
+  }
+
+  main .s-presentation-2 .info-presentation-2 {
+    display: flex !important;
+    flex-direction: column !important;
+    margin: 1rem 0 1rem 0;
+    align-items: center;
+  }
+
+  main .s-presentation-2 .logo-2 {
+    width: 50%;
+    padding: 5rem 0 1rem 0;
+  }
+
+  main .s-presentation-2 .info-presentation-2 .text-presentation-2 {
     font-size: 1.2rem;
   }
 
