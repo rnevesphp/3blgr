@@ -337,7 +337,42 @@ main .s-presentation-2 .text-presentation-2 {
 }
 /*==========================main presentation 2===============================*/
 
+/*==========================footer===============================*/
+footer {
+  height: 20rem;
+  padding: 0 20px 0 20px;
+}
 
+footer .container {
+  padding: 7.5rem 0 7.5rem 0;
+}
+
+footer .title-span-footer {
+  font-weight: bold;
+  padding: 0 0 5px;
+}
+
+footer .footer-div {
+  margin: 2rem 0 2rem 0;
+}
+
+footer .footer-div a {
+  color: #000000;
+  border-bottom: 2px solid black;
+}
+
+footer .lista-iconos-footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+footer .lista-iconos-footer li {
+  padding: 0 10px 10px 0;
+  font-size: 1.5rem; 
+}
+
+/*==========================footer===============================*/
 
 
 
