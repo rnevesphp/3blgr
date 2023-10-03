@@ -87,6 +87,21 @@ main section {
 .material-tooltip .tooltip-content {
   color: #fff;
 }
+
+/* scrollbar style */
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: none;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 3px;
+}
 /*==========================minhas classes===============================*/
 
 /*==========================HEADER===============================*/
@@ -310,6 +325,16 @@ main .s-contact .btn-box {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+main .s-contact .btn-box .btn {
+  background-color: #000000;
+  border-radius: 5px;
+  width: 6rem;
+}
+
+main .s-contact .btn-box .btn:hover {
+  box-shadow: #1f1a1a;
 }
 /*==========================main contact===============================*/
 
