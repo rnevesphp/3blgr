@@ -308,6 +308,10 @@ main .s-contact .btn-box {
   justify-content: center;
 }
 /*==========================main contact===============================*/
+
+
+
+/*==========================main presentation 2===============================*/
 main .s-presentation-2 {
   height: auto;
 }
@@ -327,6 +331,13 @@ main .s-presentation-2 .logo-2 {
 main .s-presentation-2 .text-presentation-2 {
   padding: 0rem 40px 0rem 40px;
 }
+/*==========================main presentation 2===============================*/
+
+
+
+
+
+
 /*
 /* media queries 
 
