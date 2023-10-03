@@ -348,8 +348,18 @@ footer .container {
 }
 
 footer .title-span-footer {
-  font-weight: bold;
+  
   padding: 0 0 5px;
+  font-family: var(--poppins);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+footer .footer-div li , a {
+  font-family: var(--lato);
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 5px 0 5px 0;
 }
 
 footer .footer-div {
@@ -367,7 +377,7 @@ footer .lista-iconos-footer {
 }
 
 footer .lista-iconos-footer li {
-  padding: 0 10px 10px 0;
+  padding: 0 15px 0 15px;
   font-size: 1.5rem; 
 }
 
