@@ -242,10 +242,6 @@ main .s-collections .card-1 {
 
 }
 
-/* main .s-collections .card-1 .card-image img {
-  height: ;
-} */
-
 /*==========================main collections===============================*/
 
 /*==========================main policies===============================*/
@@ -448,7 +444,7 @@ footer .lista-iconos-footer li {
   }
 
   main .banner {
-    height: 50vh !important;
+    height: 30vh !important;
     margin: 0 0 0 0;
   }
 
@@ -475,7 +471,8 @@ footer .lista-iconos-footer li {
   main .s-presentation-2 .text-presentation-2{
     display: flex !important;
     flex-direction: column !important;
-    margin: 1rem 0 1rem 0;
+    margin: 3rem 0 2rem 0;
+    align-items: center;
   }
 
   main .s-presentation-2 .logo-2 {
