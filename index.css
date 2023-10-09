@@ -3,7 +3,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css");
 
 :root {
-  /* used variables in the code */
   --lato: "Lato";
   --poppins: "Poppins";
   --roboto: "Roboto";
@@ -11,8 +10,6 @@
   --m-color: #000000;
 }
 
-/*==========================STANDARD WEB===============================*/
-/*reset css*/
 * {
   margin: 0;
   padding: 0;
@@ -25,24 +22,14 @@
   color: var(--m-color);
 }
 
-/*redefindindo a classe row sem espacamento inferior*/
-.row {
-  margin-bottom: 0px;
-}
-
-/*scroll suave*/
 html {
   scroll-behavior: smooth;
 }
 
-/*espaçamento main lateral*/
 main section {
   margin: 0 40px 0 40px;
 }
 
-/*==========================STANDARD WEB===============================*/
-
-/*==========================minhas classes===============================*/
 .df {
   display: flex;
 }
@@ -63,13 +50,6 @@ main section {
   justify-content: center;
 }
 
-/* /* valid color 
-.input-field input[type=text].valid {
-  border-bottom: 1px solid #7bf879;
-  box-shadow: 0 1px 0 0 #20ef1c;
-}
- */
-/* invalid color */
 .input-field input[type=text].invalid {
   border-bottom: 1px solid #fc2d2d;
   box-shadow: 0 1px 0 0 #fc2d2d;
@@ -88,7 +68,6 @@ main section {
   color: #fff;
 }
 
-/* scrollbar style */
 ::-webkit-scrollbar {
   width: 10px;
   background-color: none;
@@ -102,34 +81,27 @@ main section {
   background-color: #000000;
   border-radius: 3px;
 }
-/*==========================minhas classes===============================*/
 
-/*==========================HEADER===============================*/
-/*cor background + height => newsletter*/
 header .offer-boletin {
   background-color: #524545;
   padding: 10px 0 10px 0;
 }
 
-/*fonte -> tamanho + peso + familia => newsletter*/
 header .offer-boletin .boletin {
   font-size: 1rem;
   font-weight: 500;
   color: aliceblue;
 }
 
-/*espaçamento navbar laterais*/
 header .navbar {
   margin: 3rem 40px 1.5rem 40px;
 }
 
-/*alinhamento vertical logo + nav + açoes*/
 header .navbar {
   display: flex;
   align-items: center;
 }
 
-/*fonte -> tamanho + peso+ familia => menu navegaçao*/
 header .nav ul li a {
   font-size: 1.2rem;
   font-weight: var(--sm);
@@ -139,53 +111,37 @@ header .nav ul li a {
   transition: 2s;
 }
 
-/*fonte -> tamanho + peso+ familia => menu navegaçao hover*/
 header .nav ul li a:hover {
   transition: 4s;
   border-bottom: 2px solid #524545;
 }
 
-/*icones açoes*/
 header .actions ul i {
   font-size: 1.5rem;
   cursor: pointer;
   transition: color 0.5s;
 }
 
-/*icones açoes hover*/
 header .actions ul i:hover {
   transition: color 0.5s;
   color: #285907;
 }
 
-/*==========================HEADER===============================*/
-
-/*==========================main banner===============================*/
-/*tamanho banner*/
 main .banner {
   height: 81vh !important;
   margin: 0 0 4rem 0;
 }
 
-/*tamano carrossel*/
 main .banner .carousel {
   height: 100% !important;
 }
 
-/*==========================main banner===============================*/
-
-/*==========================main section titulo h1===============================*/
-/*font titulo sections predef*/
 main section .title-section h1 {
   margin: 4rem 0 4rem 0;
   font-family: var(--poppins);
   font-size: 3rem;
   font-weight: 700;
 }
-
-/*==========================main banner===============================*/
-
-/*==========================main presentation===============================*/
 
 main .s-presentation {
   height: auto;
@@ -207,10 +163,6 @@ main .s-presentation .text-presentation {
   padding: 5rem 40px 5rem 40px;
 }
 
-/*==========================main presentation===============================*/
-
-/*==========================main collections===============================*/
-/*fonte collections titulo card*/
 main .s-collections .info-collection h3 {
   font-family: var(--poppins);
   font-weight: 600;
@@ -218,7 +170,6 @@ main .s-collections .info-collection h3 {
   cursor: pointer;
 }
 
-/* link comprar colletions */
 main .s-collections .info-collection a {
   background-color: rgba(74, 173, 216, 0.4);
   font-weight: bold;
@@ -230,34 +181,25 @@ main .s-collections .info-collection a {
   transition: 1.2s;
 }
 
-/* estilizacao background comprar s-collections */
 main .s-collections .info-collection a:hover {
   transition: all 1.2s;
   background-color: rgba(45, 144, 187, 0.753);
 }
 
-/*espaçamento entre cards*/
 main .s-collections .card-1 {
   margin: 2rem 0 2rem 0;
-
 }
 
-/*==========================main collections===============================*/
-
-/*==========================main policies===============================*/
-/*afastamento da seçao anterior*/
 main .s-policies {
   margin: 8rem 0 0 0;
   padding: 0 40px 0 40px;
 }
 
-/* cor card */
 main .s-policies .card {
   background-color: rgba(188, 225, 241, 0.4);
   color: #fff;
 }
 
-/* cirulo atras do icones */
 main .s-policies .card-content .icone-formatter {
   background-color: rgba(69, 187, 238, 0.4);
   border-radius: 50%;
@@ -266,14 +208,12 @@ main .s-policies .card-content .icone-formatter {
   padding: 0 0 20px 0;
 }
 
-/*icones cards*/
 main .s-policies .card-content i {
   font-size: 1.6rem;
   padding: 15px 0 15px 0;
   color: #1f1a1a;
 }
 
-/* titulo card content */
 main .s-policies .card-content .title {
   font-weight: 700;
   font-size: 1.2rem;
@@ -282,14 +222,12 @@ main .s-policies .card-content .title {
   color: rgba(134, 177, 196, 1);
 }
 
-/* texto formatacao */
 main .s-policies .card-content .info-txt {
   font-weight: 300;
   font-size: 1.1rem;
   padding: 0 0 10px 0;
 }
 
-/* info final card  */
 main .s-policies .card-content .price {
   margin: 15px 0 0 0;
   font-weight: 600;
@@ -298,29 +236,23 @@ main .s-policies .card-content .price {
   font-family: var(--poppins);
 }
 
-/* botaopreço  */
 main .s-policies .card-content .price a {
   font-weight: 600;
   color: rgba(134, 177, 196, 1);
 }
-/*==========================main policies===============================*/
 
-
-
-
-/*==========================main contact===============================*/
 main .s-contact {
   margin: 5rem 0 5rem 0;
 }
 
 main .contact form textarea {
-  /* border: 2px solid blue; */
+
   padding: 6rem 0 0 0;
 }
 
 main .s-contact .btn-submit {
   width: 100%;
-  padding: 10px 0 10px 0; 
+  padding: 10px 0 10px 0;
 }
 
 main .s-contact .btn-box {
@@ -338,11 +270,7 @@ main .s-contact .btn-box .btn {
 main .s-contact .btn-box .btn:hover {
   box-shadow: #1f1a1a;
 }
-/*==========================main contact===============================*/
 
-
-
-/*==========================main presentation 2===============================*/
 main .s-presentation-2 {
   height: auto;
 }
@@ -362,9 +290,26 @@ main .s-presentation-2 .logo-2 {
 main .s-presentation-2 .text-presentation-2 {
   padding: 0rem 40px 0rem 40px;
 }
-/*==========================main presentation 2===============================*/
 
-/*==========================footer===============================*/
+main .filtros {
+  background-color: #524545;
+  height: 5rem;
+  text-align: center;
+}
+
+main .catalog .info-card-1 {
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  font-family: var(--poppins);
+}
+
+main .catalog .info-card-1 i {
+  color: #fc2d2d;
+  font-size: 1.4rem;
+  padding: 0 0 0 8.5rem;
+}
+
 footer {
   height: 20rem;
   padding: 0 20px 0 20px;
@@ -375,14 +320,14 @@ footer .container {
 }
 
 footer .title-span-footer {
-  
   padding: 0 0 5px;
   font-family: var(--poppins);
   font-size: 1.4rem;
   font-weight: 700;
 }
 
-footer .footer-div li , a {
+footer .footer-div li,
+a {
   font-family: var(--lato);
   font-size: 1.2rem;
   font-weight: 300;
@@ -405,27 +350,12 @@ footer .lista-iconos-footer {
 
 footer .lista-iconos-footer li {
   padding: 0 15px 0 15px;
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
 }
 
-/*==========================footer===============================*/
+@media screen and (min-width: 500px) {}
 
-
-
-
-/*
-/* media queries 
-
-
-/* smartphones and large devices and up 
-@media screen and (min-width: 500px) {
-
-}*/
-
-/* tablet and similar devices  */
 @media screen and (max-width: 620px) {
-
-  /* icones mobile */
   header .actions ul {
     display: flex;
     justify-content: space-between;
@@ -468,7 +398,7 @@ footer .lista-iconos-footer li {
     margin: 2rem 0 0 0;
   }
 
-  main .s-presentation-2 .text-presentation-2{
+  main .s-presentation-2 .text-presentation-2 {
     display: flex !important;
     flex-direction: column !important;
     margin: 3rem 0 2rem 0;
