@@ -94,12 +94,11 @@ header .offer-boletin .boletin {
 }
 
 header .navbar {
-  margin: 3rem 40px 1.5rem 40px;
-}
-
-header .navbar {
   display: flex;
   align-items: center;
+  justify-content: center;
+
+  margin: 2rem 40px 2rem 40px;
 }
 
 header .nav ul li a {
@@ -109,6 +108,13 @@ header .nav ul li a {
   color: var(--m-color);
   cursor: pointer;
   transition: 2s;
+}
+
+header .nav-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 header .nav ul li a:hover {
@@ -292,27 +298,129 @@ main .s-presentation-2 .text-presentation-2 {
 }
 
 main .filtros {
-  background-color: #524545;
-  height: 5rem;
+  background-color: #1f1a1a;
+  height: 2rem;
   text-align: center;
 }
 
-main .catalog .info-card-1 {
-  justify-content: space-between;
+main .catalog .product-info {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+main .catalog .product-info .prod-description {
+  color: #3f8d0b;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+main .catalog .product-info .prod-description {
+  margin: 0 0 0 7rem;
+}
+
+main .catalog .product-info .text-description {
+  padding: 0 0 0.8rem 0;
+}
+
+main .prod-variant .color-variant {
+  display: flex;
+  flex-direction: column;
+}
+
+main .prod-variant .color-variant ul {
+  display: flex;
+  flex-wrap: row wrap;
+  margin: 0.8rem 0 0 0;
+}
+
+main .prod-variant .color-variant ul li {
+  margin: 0 1.5rem 0 0;
+  border: 1px solid red;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  font-size: 1.6rem;
+}
+
+.title-variant {
   font-family: var(--poppins);
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
-main .catalog .info-card-1 i {
-  color: #fc2d2d;
-  font-size: 1.4rem;
-  padding: 0 0 0 8.5rem;
+main .prod-sizes {
+  display: flex;
+  flex-direction: column;
+  padding: .8rem 0 0 0;
 }
 
-footer {
-  height: 20rem;
-  padding: 0 20px 0 20px;
+main .prod-sizes ul {
+  display: flex;
+  flex-wrap: row wrap;
+  margin: 0.8rem 0 0 0;
+}
+
+main .prod-sizes ul li span {
+  margin: 0 1rem 0 0;
+}
+
+main .prod-sizes ul li {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 500;
+  background-color: rgb(211, 210, 208);
+  cursor: pointer;
+  margin: 0 1.5rem 0 0;
+}
+
+.title-prod {
+  font-family: var(--poppins);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+main .prod-cta {
+  margin: 1.2rem 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .prod-cta .quantity-counter {
+  display: flex;
+  align-items: center;
+}
+
+main .prod-cta .contador {
+  width: 50px;
+  height: 35px;
+  margin: 0 .5rem 0 .5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  border-radius: 5px;
+
+  background-color: rgb(211, 210, 208);
+  color: #fff;
+  font-weight: 500;
+}
+
+main .prod-cta .btn {
+  background-color: #3f8d0b;
+  width: 6rem;
+}
+
+main .prod-cta .btn i {
+  color: #fff;
 }
 
 footer .container {
