@@ -2,17 +2,15 @@ const express = require('express');
 const router = express.Router(); 
 const crypto = require('crypto');
 
-const catalogo = [ 
-    {
-        marcas : { 
-            marca : {nombre: "Guess", cantidad: "2000"}, 
-            marca : {nombre: "Gucci", cantidad: "500"},
-            marca : {nombre: "Prada", cantidad: "800"},
-            marca : {nombre: "Moschino", cantidad: "600"},
-            marca : {nombre: "Brooks" , cantidad: "300"}
-        }
-    }
+const catalogo = [
+    {nombre: "Guess", cantidad: "2000"}, 
+    {nombre: "Gucci", cantad: "500"},
+    {nombre: "Prada", cantad: "800"},
+    {nombre: "Moschino", cantad: "600"},
+    {nombre: "Brooks" , cantidad: "300"}
 ]
+    
+
 
 router.get( '/' , (req , res) => {
  res.send(
