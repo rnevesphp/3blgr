@@ -18,7 +18,7 @@ const createHeader = () => {
                 <div class="nav hide-on-med-and-down center col m6 l6">
                     <ul id="nav-mobile" class="row ">
                         <li class="col s4 m4 l4">
-                            <a href="../index.html">Inicio</a>
+                            <a href="../../../index.html">Inicio</a>
                         </li>
                         <li class="col s4 m4 l4">
                             <a href=""> Marcas</a>
