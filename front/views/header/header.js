@@ -1,7 +1,7 @@
 'use strict'
 
-export const header =
-        `<header class="header">
+const createHeader = () => {
+    const header = `<header class="header">
             <div class="offer-boletin center-align v-align-center">
                 <span class="boletin">
                     ¡OBTÉN UN 15% OFF! ¡SUSCRÍBETE A NUESTRO BOLETÍN AHORA!
@@ -48,5 +48,8 @@ export const header =
                     </ul>
                 </div>
             </div>
-        </header>` 
+        </header>`
 
+}
+
+export default createHeader

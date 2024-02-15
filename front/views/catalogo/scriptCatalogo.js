@@ -79,10 +79,7 @@ const getCatalogo = async () => {
                                         <span class="card-title title-prod">
                                         Sudadera ${marca.nombre}</span>
                                         <span class="prod-description">43€</span>
-                                        <span class="text-description">Descripcion del
-                                                                    producto Lorem ipsum dolor sit amet
-                                                                    consectetur adipisicing
-                                                                    elit. Veritatis
+                                        <span class="text-description">Descripcion del producto Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
                                         </span>
                                     </div>
                                     <div class="prod-variant">

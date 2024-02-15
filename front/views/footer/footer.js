@@ -1,9 +1,8 @@
 'use strict'
 
-export const footer =
-
-`
-        <footer style="border: 1px solid red;">
+const createFooter = () => {
+    const footer =
+        `<footer style="border: 1px solid red;">
             <div class="container center row">
                 <div class="col s12 m12 l12">
                     <div class=" col s12 m12 l3 footer-info-1">
@@ -73,3 +72,8 @@ export const footer =
             </div>
         </footer>
     `;
+
+    return footer
+}
+
+export default createFooter; 
