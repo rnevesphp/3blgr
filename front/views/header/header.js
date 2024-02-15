@@ -1,8 +1,6 @@
 'use strict'
 
-function header() {
-    
-    const headerElement = 
+export const header =
         `<header class="header">
             <div class="offer-boletin center-align v-align-center">
                 <span class="boletin">
@@ -52,8 +50,3 @@ function header() {
             </div>
         </header>` 
 
-        return headerElement
-};
-
-
-export { header }

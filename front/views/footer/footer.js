@@ -1,8 +1,8 @@
 'use strict'
 
-function footer()  {
+export const footer =
 
-    const footerElement = `
+`
         <footer style="border: 1px solid red;">
             <div class="container center row">
                 <div class="col s12 m12 l12">
@@ -72,9 +72,4 @@ function footer()  {
                 </div>
             </div>
         </footer>
-    `
-
-    return footerElement
-}; 
-
-export { footer }
+    `;

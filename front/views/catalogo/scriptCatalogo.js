@@ -1,25 +1,23 @@
 const doc = document;
 const API = "http://localhost:3001/catalogo";
 const cata = doc.getElementById("catalogo");
-const ft = doc.getElementById('footer');
-const hd = doc.getElementById('header');
 
-/* const header = require('../header/header')
-const footer = require('../footer/footer') */
+const ft = doc.getElementById("footer");
+const hd = doc.getElementById("header");
 
-import header from "../header/header"
-import footer from "../footer/footer"
+import header from "../header/header.js"
+import footer from "../footer/footer.js"
 
 const getCatalogo = async () => {
     cata.innerHTML = "";
 
-    hd.innerHTML = '';
-    ft.innerHTML = '';
+    hd.innerHTML = ""
+    ft.innerHTML = "" 
 
     hd.insertAdjacentHTML(
         'beforebegin', header
     )
-
+ 
     const responseFromAPI = await fetch(API);
     const catalogoFromDatabase = await responseFromAPI.json();
 
@@ -28,7 +26,8 @@ const getCatalogo = async () => {
     catalogoFromDatabase.map((marca) => {
         cata.insertAdjacentHTML
         (
-            'beforeend', `<main>
+            'beforeend', `
+            <main>
                 <div class="filtros row">
                         <div class="col s4 m6 l6">
                             <div class="filtro-marca input-field">
@@ -131,7 +130,7 @@ const getCatalogo = async () => {
 
     ft.insertAdjacentHTML(
         'beforebegin', footer
-    )
+    ) 
 };
 
 getCatalogo();
