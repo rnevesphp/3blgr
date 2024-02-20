@@ -31,7 +31,7 @@ const getCatalogo = async () => {
             <div class=""></div>
             <main>
                 <div class="filtros row">
-                    <div class="col s4 m6 l6">
+                    <div class="col s4 m6 l4">
                         <div class="filtro-marca input-field">
                             <select name="category" id="category">
                                 <option value="" disabled selected>Choose your option</option>
