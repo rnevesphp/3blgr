@@ -57,7 +57,7 @@ const getCatalogo = async () => {
 
     ft.insertAdjacentHTML(
         'beforebegin', footer
-    ) 
+    );
 };
 
 getCatalogo();
