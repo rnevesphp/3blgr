@@ -5,7 +5,7 @@ const pool = new Pool(
         user: "postgres",
         host: "localhost",
         database: "canoa_web_stock",
-        password: "",
+        password: "1234",
         port: 5432
     }
 )

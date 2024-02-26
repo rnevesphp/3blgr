@@ -3,15 +3,14 @@ const router = express.Router();
 const crypto = require("crypto");
 const { pool } = require("../database/config.js");
 
-
 router.get("/", async (req, res) => {
   try {
-    const { rows } = await pool.query("SELECT * FROM brandscatalog");
+    const { rows } = await pool.query("SELECT * FROM colecciones");
     res.send(rows);
     
-  } catch (error) {
-    console.error(error);
-    res.status(500).send("Marcas no encontradas");
+  } catch (err) {
+    console.log(err);
+    res.status(500).send("Error al obtener las Colecciones");
   }
 });
 
