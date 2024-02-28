@@ -74,11 +74,7 @@ create table productsCatalog (
 	variantesProducto varchar(20), 
 	udsInStokc int,
 	fechaLlegadaStock date,
-	marcaProducto varchar(50), 
-	PRIMARY KEY(marcaProducto),
-   	CONSTRAINT fk_marcaProducto
-      FOREIGN KEY(nombreMarca) 
-        REFERENCES brandscatalog(nombreMarca)
+	marcaProducto varchar(50)
 );
 /*====================================PRODUCTOS================================================*/
 

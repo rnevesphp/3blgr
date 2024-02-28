@@ -2,8 +2,8 @@ const doc = document;
 const API = "http://localhost:3001/colecciones";
 const col = doc.getElementById("collections");
 
-const ft = doc.getElementById("footer");
-const hd = doc.getElementById("header"); 
+const ft = doc.getElementById("footerCollections");
+const hd = doc.getElementById("headerCollections"); 
 
 import header from "../header/header.js"
 import footer from "../footer/footer.js"
@@ -27,8 +27,8 @@ const getCollections = async () => {
         col.insertAdjacentHTML
         (   
             'beforeend', 
-                `<div class="row ">
-                    <div class="col s12 m12 l4 card-box">
+                `<div class="">
+                    <div class="col s12 m12 l3 card-box">
                         <div href="/views/catalogue.html" class="card card-1">
                             <div class="card-image ">
                                 <a>
@@ -37,8 +37,8 @@ const getCollections = async () => {
                             </div>
                         </div>
                         <div class="info-collection">
-                            <h3>${collection.nombrecoleccion}</h3>
-                            <a href="/views/catalogue.html">VER AHORA</a>
+                            <h3>${collection.nombrecoleccion} ${collection.collectionyear}</h3>
+                            <a>VER AHORA</a>
                         </div>
                     </div>
                 </div>
@@ -52,3 +52,5 @@ const getCollections = async () => {
 };
 
 getCollections(); 
+
+

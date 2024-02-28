@@ -38,8 +38,8 @@ const getCatalogo = async () => {
                                     <div class="product-info">
                                         <span class="card-title title-prod">${marca.nombremarca}</span>
                                         ${marca.quantityinstock > 150 ? 
-                                            `<span class="text-description green-text">Stock Disponible <span class="green-text" >${marca.quantityinstock}</span> </span>` : 
-                                            `<span class="text-description red-text">Stock indsiponible <span class="red-text" >0</span> </span>`
+                                            `<span class="text-description green-text">Stock Disponible <span class="green-text">${marca.quantityinstock}</span> </span>` : 
+                                            `<span class="text-description red-text">Stock indsiponible <span class="red-text">0</span></span>`
                                         }
                                     </div>
                                     <div class="prod-cta">

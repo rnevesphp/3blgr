@@ -19,10 +19,13 @@ const header = `<header class="header">
                             <a href="../../../index.html">Inicio</a>
                         </li>
                         <li class="col s4 m4 l4">
-                            <a href=""> Marcas</a>
+                            <a href="">Marcas</a>
                         </li>
                         <li class="col s4 m4 l4">
-                            <a href="#contact">Contact Us</a>
+                            <a href="">Colecciones</a>
+                        </li>
+                        <li class="col s4 m4 l4">
+                            <a href="">Contactos</a>
                         </li>
                     </ul>
                 </div>
