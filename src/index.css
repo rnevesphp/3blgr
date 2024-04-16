@@ -294,7 +294,7 @@ main .s-presentation-2 .logo-2 {
 }
 
 main .s-presentation-2 .text-presentation-2 {
-  padding: 0rem 40px 0rem 40px;
+  padding: 0 0 0 0;
 }
 
 main .filtros {
@@ -424,7 +424,7 @@ main .prod-cta .btn i {
 }
 
 footer .container {
-  padding: 7.5rem 0 7.5rem 0;
+  padding: 2rem 0 0 0;
 }
 
 footer .title-span-footer {
@@ -443,7 +443,7 @@ a {
 }
 
 footer .footer-div {
-  margin: 2rem 0 2rem 0;
+  margin: 0 0 0 0;
 }
 
 footer .footer-div a {

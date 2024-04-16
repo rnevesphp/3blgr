@@ -1,4 +1,4 @@
-const doc = document;
+/* const doc = document;
 const ft = doc.getElementById("footer");
 const hd = doc.getElementById("header");
 
@@ -7,7 +7,7 @@ import footer from "../views/footer/footer";
 
 hd.innerHTML = header
 ft.innerHTML = footer
-
+ */
 document.addEventListener("DOMContentLoaded", function () {
   var elems = document.querySelectorAll(".carousel");
   var instances = M.Carousel.init(elems);
