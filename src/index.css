@@ -83,7 +83,7 @@ main section {
 }
 
 header .offer-boletin {
-  background-color: #524545;
+  
   padding: 10px 0 10px 0;
 }
 
@@ -202,12 +202,12 @@ main .s-policies {
 }
 
 main .s-policies .card {
-  background-color: rgba(188, 225, 241, 0.4);
+  background-color: rgba(130, 203, 236, 0.4);
   color: #fff;
 }
 
 main .s-policies .card-content .icone-formatter {
-  background-color: rgba(69, 187, 238, 0.4);
+  background-color: rgb(255, 255, 255);
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -225,7 +225,7 @@ main .s-policies .card-content .title {
   font-size: 1.2rem;
   padding: 20px 0 10px 0;
   font-family: var(--poppins);
-  color: rgba(134, 177, 196, 1);
+  color: rgb(55, 74, 82);
 }
 
 main .s-policies .card-content .info-txt {
@@ -237,14 +237,14 @@ main .s-policies .card-content .info-txt {
 main .s-policies .card-content .price {
   margin: 15px 0 0 0;
   font-weight: 600;
-  color: rgba(134, 177, 196, 1);
+  color: rgb(55, 74, 82);
   font-size: 1.1rem;
   font-family: var(--poppins);
 }
 
 main .s-policies .card-content .price a {
   font-weight: 600;
-  color: rgba(134, 177, 196, 1);
+  color: rgb(55, 74, 82);
 }
 
 main .s-contact {
@@ -434,6 +434,10 @@ footer .title-span-footer {
   font-weight: 700;
 }
 
+footer .store {
+  margin: 1rem 0 0 0 ;
+}
+
 footer .footer-div li,
 a {
   font-family: var(--lato);
@@ -453,11 +457,11 @@ footer .footer-div a {
 footer .lista-iconos-footer {
   display: flex;
   width: 100%;
-  justify-content: center;
+  
 }
 
 footer .lista-iconos-footer li {
-  padding: 0 15px 0 15px;
+  padding: 0 15px 0 0;
   font-size: 1.5rem;
 }
 
